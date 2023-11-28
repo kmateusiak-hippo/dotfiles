@@ -1,0 +1,76 @@
+{
+    "diffEditor.ignoreTrimWhitespace": false,
+    "jest.autoRun": "off",
+
+    "extensions.ignoreRecommendations": true,
+
+    "editor.stickyScroll.enabled": true,
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.codeActionsOnSave": {
+    "source.fixAll": true
+    },
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "editor.wordWrap": "on",
+    "errorLens.enabledDiagnosticLevels": [
+        "info",
+        "warning",
+        "error"
+    ],
+    "errorLens.enabled": true,
+    "errorLens.excludeBySource": [
+        "eslint(@angular-eslint/template/no-negated-async)"
+    ],
+    "editor.inlineSuggest.enabled": true,
+    "xstate.nestTypegenFiles": false,
+    "explorer.fileNesting.patterns": {
+        "Cargo.toml": "Cargo.lock"
+    },
+    "markdown-preview-enhanced.previewTheme": "atom-dark.css",
+
+    "diffEditor.codeLens": true,
+    "dotfiles.repository": "https://github.com/kmateusiak-hippo/dotfiles.git",
+   
+    "search.exclude": {
+      "**/.mypy_cache": true,
+      "bandit_baseline": true
+    },
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "terminal.integrated.scrollback": 10000,
+    "terminal.integrated.shellIntegration.enabled": true,
+    "typescript.preferences.includePackageJsonAutoImports": "on",
+    "[html]": {
+      "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
+    "[jsonc]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
+    "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
+    "[markdown]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
+    "[yaml]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    }
+  }
